@@ -31,3 +31,10 @@ If you want to see the Python 2 materials and text book from the previous versio
 ## Audio links for lectures
 1. https://itunes.apple.com/us/podcast/python-for-everybody-audio-py4e/id1214665693 
 2. https://play.google.com/music/listen?u=0#/ps/Ijgj3aofh6m73rps4wtdk6djhv4
+
+
+##Tools
+1. https://atom.io/
+2. TextWrangler/BBEdit on the Macintosh and NotePad++ on Windows
+3. Python using the Anaconda distribution, also includes many science and data analysis libraries, there you can use the Spyder development environment to edit and run your Python programs
+4. If you already use Eclipse for Java development, you might want to look at PyDev, a Python IDE that runs on top of Eclipse. or PyCharm like IDEs. 
