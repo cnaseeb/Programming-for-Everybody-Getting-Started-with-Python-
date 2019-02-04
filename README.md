@@ -27,3 +27,7 @@ The only other significant change is how Python handles various character sets l
 You might find that your job still wants to use Python 2. We believe that going from Python 3 to Python 2 is pretty easy - so don't worry too much about the version of Python that you learn when you are first starting out.
 
 If you want to see the Python 2 materials and text book from the previous version of the course, an archive of that material continues to be available at http://www.pythonlearn.com/.
+
+## Audio links for lectures
+1. https://itunes.apple.com/us/podcast/python-for-everybody-audio-py4e/id1214665693 
+2. https://play.google.com/music/listen?u=0#/ps/Ijgj3aofh6m73rps4wtdk6djhv4
