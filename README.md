@@ -38,3 +38,7 @@ If you want to see the Python 2 materials and text book from the previous versio
 2. TextWrangler/BBEdit on the Macintosh and NotePad++ on Windows
 3. Python using the Anaconda distribution, also includes many science and data analysis libraries, there you can use the Spyder development environment to edit and run your Python programs
 4. If you already use Eclipse for Java development, you might want to look at PyDev, a Python IDE that runs on top of Eclipse. or PyCharm like IDEs. 
+
+### External tool (Python Playground)
+https://www.py4e.com/tools/pythonauto/?PHPSESSID=8e04493b38323762e3d615998b64ef2a
+
