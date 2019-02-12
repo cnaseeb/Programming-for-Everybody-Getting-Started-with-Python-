@@ -7,25 +7,21 @@ Score Grade
 < 0.6 F
 If the user enters a value out of range, print a suitable error message and exit. For the test, enter a score of 0.85."""
 
-### still to be completed
+###
 score = input("Enter Score: ")
-try:
-    score = float(score)
-except:
-	print("Error, please enter numeric input")
-	quit()
-#if score >= 0.0:
-   #if score <= 1.0:
-if score >= 0.9:
-    print("A")
-elif score >= 0.8:
-    print("B")
-elif score >= 0.7:
-    print("C")
-elif score >= 0.6:
-    print("D")
-elif score < 0.6:
-    print("F")
+score = float(score)
+#if score in range(0.0,0.9): #only ints
+if 0.0 <= score and score <= 1.0:
+    if score >= 0.9 and score <= 1.0:
+        print("A")
+    elif score >= 0.8 and score < 0.9:
+        print("B")
+    elif score >= 0.7 and score < 0.8:
+        print("C")
+    elif score >= 0.6 and score < 0.7:
+        print("D")
+    elif score < 0.6:
+        print("F")
 else:
     print("Error, please enter the score in the range of 0.0 and 1.0")
     quit()
