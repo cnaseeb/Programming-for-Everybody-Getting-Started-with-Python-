@@ -3,3 +3,20 @@
 # (the pay should be 498.75). You should use input to read a string and float() to convert the string to a number. Do not worry about error 
 # checking the user input - assume the user types numbers properly.
 
+hrs = input("Enter Hours:")
+ratePerHour = input("Enter rate per hour:")
+try:
+    fhrs = float(hrs)
+    fratePerHour = float(ratePerHour)
+except:
+	print("Error, please enter numeric input")
+	quit()
+#print(fhrs, fratePerHour)
+#Pay = float(hrs) * float(ratePerHour)
+if fhrs > 40:
+    PayNormal = fhrs * fratePerHour
+    PayExtra = (fhrs - 40) * (fratePerHour * 0.5)
+    Pay = PayExtra + PayNormal
+else:
+    Pay = fhrs * fratePerHour
+print(Pay)
