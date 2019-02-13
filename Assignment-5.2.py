@@ -4,3 +4,27 @@
 largest and smallest of the numbers. If the user enters anything other than a valid number catch it with a try/except and put out an 
 appropriate message and ignore the number. Enter 7, 2, bob, 10, and 4 and match the output below.
 """
+largest = None
+smallest = None
+count = 0
+while True:
+    num = input("Enter a number: ")
+    if num == "done" : break
+    else:
+        try:
+            ival = int(num)
+        except:
+    		print('Invalid input')
+    		continue
+        if count == 0 and smallest is None:
+            smallest = ival
+        if ival < smallest:
+            smallest = ival
+        elif largest is None or ival > largest:
+            largest = ival
+               
+        count = count + 1
+    #print(num)
+
+print("Maximum is", largest)
+print("Minimum is", smallest)
